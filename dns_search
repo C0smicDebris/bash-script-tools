@@ -41,10 +41,4 @@ while true; do
         fi
     done
 
-    read -p "Would you like to search a new domain? (y/n): " new_domain
-    if [[ "$new_domain" != "y" ]]; then
-        echo "Exiting..."
-        exit 0
-    fi
-
 done
